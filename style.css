@@ -52,12 +52,9 @@ a:link, a:visited {
 }
 
 #cover {
-	//width: 400px;
-	
-	//height: 950px;
-	//background-color: red;
-	//min-width: 960px;
-
+	background: url('img/temp/redHat.gif');
+	background-repeat: no-repeat;
+	background-size:100%;
 	//cursor: s-resize;
 	 }
 	 
@@ -69,10 +66,6 @@ a:link, a:visited {
 
 .parallax {
 	color: #eee;
-	//background-color: white;
-	//overflow: hidden;
-	//opacity: 0.7;
-	//vertical-align: text-top;
 }
 
  	 
@@ -149,7 +142,7 @@ td {
  	z-index: -1;
  	width: 995px;
  	height: 883px;
- 	background-image:url('../img/huge_f.png');
+ 	background-image:url('img/huge_f.png');
  	//background-color: #fff;
  	//opacity: 0;
  }
@@ -233,7 +226,7 @@ margin-top: 15px;
 	left: 0;
 	//right: 0;
 	z-index: -4;
-	background-image:url('../img/parts/texturetastic_gray.png');
+	background-image:url('img/texturetastic_gray.png');
 }
 
 #about{
@@ -299,29 +292,25 @@ h5 {
 	//width: 100%;
 }
 
-.entry {
-	//padding-top: 20px;
-	//height: 600px;
-	////margin-bottom: 80px;
-	}
 
 .blogContent {
 	width: 700px;
 	height: 500px;
-	//heigth: 300px;
-	//float: left;
 	clear: both;
 	margin: 0 auto;
 	
 }
 
-.entryInfo {
-position: relative;
-top: -500px;
-float: right;
-padding-right: 20px;
-width: 120px;
+.entryText {
+	//border: 1px solid;
+}
 
+.entryInfo {
+	position: relative;
+	top: -500px;
+	float: right;
+	padding-right: 20px;
+	width: 120px;
 }
 
 .year {
@@ -344,10 +333,6 @@ width: 120px;
 	text-align: left;
 }
 
-.lineBreak {
-	//position: relative;
-	//width: 950px;
-}
  
 /*VIDEO PLAYER STYLES*/
 
@@ -360,6 +345,7 @@ width: 120px;
   -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
 
   background: transparent;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 /*  background: -moz-linear-gradient(top, #454545 0%, #232323 50%, #161616 50%, #3f3f3f 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%,#454545), color-stop(50%,#232323), color-stop(50%,#161616), color-stop(100%,#3f3f3f));
   background: -webkit-linear-gradient(top, #454545 0%,#232323 50%,#161616 50%,#3f3f3f 100%);
@@ -381,6 +367,6 @@ width: 120px;
   position: absolute; top: 0; left: 0;
   display: block; width: 117px; height: 117px;
   margin: 0; /* Using negative margin to center image. */
-  background: url('../img/playhead.png'); 
+  background: url('img/playhead.png'); 
   text-align: center; 
 } 
