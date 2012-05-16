@@ -286,11 +286,10 @@ a:visited{
 }
 
 .entry p{
-	padding: 0; margin: 20px 0 25px;
+	padding: 0; 
+	margin: 20px 0 25px;
 	color:  #4c4c4c;
 	width: 640px;
-
-	//font-family: 'arial black';
 	text-align: left;
 	font: 11pt helvetica;
 }
