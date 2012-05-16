@@ -42,7 +42,7 @@ a:hover{
 }
 
 a:visited{
-	color:  #AAA;
+	color:  #aaa;
 }
 
 
@@ -142,7 +142,7 @@ a:visited{
 #aboutContainer {
 	height: 1420px;
 	position: relative;
-	z-index: -2;
+	//z-index: -2;
 	//background-color: white;
 
 }
@@ -184,7 +184,6 @@ a:visited{
 }
 
 #thomas {
-	//border: 1px solid;
 	width: 45%;
 	float: left;
 	text-align:  justify;
@@ -208,10 +207,10 @@ a:visited{
 }
 
 #about h1 {
-		font-size: 41px;
-		font-weight: normal;
-		font-family: Arial;
-		border: 0; padding: 0;
+	font-size: 41px;
+	font-weight: normal;
+	font-family: Arial;
+	border: 0; padding: 0;
 }
 
 #about h2{
